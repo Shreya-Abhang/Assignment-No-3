@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Swapping Numbers</title>
+</head>
+<body>
+    <script>
+        var a = 20;
+        var b = 30;
+
+        document.write("Before swapping: <br>");
+        document.write("a = " + a + "<br>");
+        document.write("b = " + b + "<br>");
+
+        var temp = a;
+        a = b;
+        b = temp;
+
+        document.write("After swapping: <br>");
+        document.write("a = " + a + "<br>");
+        document.write("b = " + b + "<br>");
+    </script>
+</body>
+</html>
