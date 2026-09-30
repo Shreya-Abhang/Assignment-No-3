@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Area of Circle</title>
+</head>
+<body>
+    <script>
+        var radius = parseFloat(prompt("Enter Radius:"));
+        var area = 3.14 * radius * radius;
+        var circumference = 2 * 3.14 * radius;
+
+        document.write("Radius: " + radius + "<br>");
+        document.write("Area: " + area.toFixed(2) + "<br>");
+        document.write("Circumference: " + circumference.toFixed(2) + "<br>");
+    </script>
+</body>
+</html>
