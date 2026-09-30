@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Javascript</title>
+</head>
+<body onload="welcome()">
+    <script>
+        function welcome() {
+            alert("Welcome to Javascript");
+        }
+    </script>
+</body>
+</html>
