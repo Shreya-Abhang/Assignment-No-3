@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Exam alert</title>
+</head>
+<body>
+    <script>
+        alert("Exams are near, have you started preparing for ?");
+        var name = prompt("Enter your name:");
+        var answer = confirm("Have you started preparing for exams?");
+
+        if (answer) {
+            alert("Good " + name + "! keep preparing.");
+        } else {
+            alert(name + " please start preparing for exams");
+        }
+    </script>
+</body>
+</html>
